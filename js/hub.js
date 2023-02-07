@@ -116,7 +116,7 @@ function jalolOutput(array) {
         JalolData.setAttribute("class", "jalol-height");
         JalolData.textContent = `Дата: ${list.data}`;
         var card2 = document.createElement("div");
-        card2.setAttribute("class", "my_card  m-5 ggg text-center col-3 rounded");
+        card2.setAttribute("class", "my_card  m-5 ggg text-center col-12 rounded");
 
         imgBox.appendChild(JalolImg);
         card2.appendChild(JalolDes);

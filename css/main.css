@@ -18,3 +18,19 @@
 .ggg{
     background-color: orangered;
 }
+.my_card {
+    padding: 5px;
+    margin: 100px auto;
+    position: relative;
+    transition: all 300ms cubic-bezier(0.03, 0.98, 0.53, 0.99) 0s;
+    background: orangered;
+    border-radius: 20px;
+    width: 400px;
+  }
+  
+  .my_card {
+    border: 4px solid #30414B;
+    border-image-slice: 1;
+    box-shadow: 0 15px 25px rgba(15, 15, 15, 0.2)
+  }
+  
